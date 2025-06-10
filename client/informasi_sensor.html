@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Sensor Realtime</title>
+  <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+
+  <h1>Data Realtime Sensor</h1>
+
+  <table class="sensor-table">
+    <thead>
+      <tr>
+        <th>Waktu</th>
+        <th>Sensor 1</th>
+        <th>Sensor 2</th>
+        <th>Sensor 3</th>
+        <th>Sensor 4</th>
+        <th>Output Fuzzy</th>
+        <th>Relay</th>
+      </tr>
+    </thead>
+    <tbody id="data-body">
+      <tr>
+        <td id="waktu">-</td>
+        <td id="s1">0</td>
+        <td id="s2">0</td>
+        <td id="s3">0</td>
+        <td id="s4">0</td>
+        <td id="fuzzy">-</td>
+        <td id="relay">-</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="./static/script_realtime.js"></script>
+</body>
+</html>

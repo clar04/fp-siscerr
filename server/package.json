@@ -1,0 +1,16 @@
+{
+  "name": "smart-system-final-project-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@fastify/mongodb": "^9.0.2",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.3.3",
+    "fastify-plugin": "^5.0.1",
+    "mongoose": "^8.15.1"
+  }
+}
