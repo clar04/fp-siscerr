@@ -1,0 +1,157 @@
+/* Global style */
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Card container untuk sensor dashboard */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  width: 200px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #555;
+}
+
+.value {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Fuzzy result box */
+.fuzzy-result {
+  background: #333;
+  color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  margin-top: 30px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.fuzzy-result h2 {
+  margin: 0 0 10px;
+}
+
+.fuzzy-result .value {
+  font-size: 40px;
+  color: #ffd700;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0c1022;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Table Container */
+.sensor-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.sensor-table thead th {
+  background: #1b2b5f;
+  color: #fff;
+  padding: 14px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+}
+
+.sensor-table tbody td {
+  padding: 14px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  color: #eaeaea;
+}
+
+.sensor-table tbody tr:nth-child(even) {
+  background: #141b35;
+}
+
+.sensor-table tbody tr:nth-child(odd) {
+  background: #0e1430;
+}
+
+.sensor-table tbody tr:hover {
+  background: #1f2c58;
+}
+
+/* Status badge */
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.badge-normal {
+  background: #2ecc71;
+  color: #fff;
+}
+
+.badge-waspada {
+  background: #f1c40f;
+  color: #000;
+}
+
+.badge-hujan {
+  background: #e74c3c;
+  color: #fff;
+}
+
+/* Relay status */
+.badge-on {
+  background: #27ae60;
+  color: #fff;
+}
+
+.badge-off {
+  background: #95a5a6;
+  color: #fff;
+}
