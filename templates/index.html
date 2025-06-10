@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Monitoring Sensor Realtime</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Monitoring Sensor Realtime</h1>
+
+  <div class="container">
+    <div class="card">
+      <h2>Sensor 1</h2>
+      <div class="value" id="s1">0</div>
+    </div>
+    <div class="card">
+      <h2>Sensor 2</h2>
+      <div class="value" id="s2">0</div>
+    </div>
+    <div class="card">
+      <h2>Sensor 3</h2>
+      <div class="value" id="s3">0</div>
+    </div>
+    <div class="card">
+      <h2>Sensor 4</h2>
+      <div class="value" id="s4">0</div>
+    </div>
+  </div>
+
+  <div class="fuzzy-result">
+    <h2>Output Fuzzy</h2>
+    <div class="value" id="fuzzy">-</div>
+    <p>Status Relay: <span id="relay">-</span></p>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
